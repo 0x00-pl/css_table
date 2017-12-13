@@ -1,0 +1,25 @@
+
+.content {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+.tab-box {
+    position: relative;
+    top: 0;
+}
+
+.tab-header {
+    display: inline-box;
+}
+
+.tab-content {
+    display: none;
+    position: absolute;
+    top: 1.5rem;
+}
+
+.tab-header:checked+.tab-content {
+    display: block;
+}
